@@ -1,0 +1,16 @@
+.App{
+   height: 100px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+}
+body, html{
+    background: url(https://static9.depositphotos.com/1385699/1203/v/600/depositphotos_12031012-stock-illustration-blue-and-gold-template.jpg)
+    no-repeat fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  image-rendering: auto;
+  image-rendering: crisp-edges;
+  image-rendering: pixelated;
+}

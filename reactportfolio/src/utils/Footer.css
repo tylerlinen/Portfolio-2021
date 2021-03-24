@@ -1,0 +1,20 @@
+#footer{
+    position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(248, 239, 239);
+  color: rgb(0, 0, 0);
+  text-align: left;
+  font-size: 435px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: yellow;
+  padding: 50px;
+}
+div.card-footer{
+  height: 100%;
+  color: blue;
+}
+

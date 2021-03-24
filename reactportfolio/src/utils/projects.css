@@ -1,0 +1,54 @@
+body, html{
+  height: 100%;
+}
+
+
+.project_row{
+  height: 100%;
+}
+
+.git_link {
+  font-size: 30px;
+  color: aliceblue;
+}
+
+.app_link {
+  font-size: 30px;
+  color: aliceblue;
+}
+
+#coding_box {
+  height: 100%;
+  width: 40%;
+  padding: 25px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#password_box {
+  height: 20%;
+  width: 40%;
+  padding: 25px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#weather_box {
+  height: 20%;
+  width: 40%;
+  padding: 25px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#burger_box {
+  height: 20%;
+  width: 40%;
+  padding: 25px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

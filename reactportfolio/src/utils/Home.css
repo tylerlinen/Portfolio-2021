@@ -1,0 +1,156 @@
+html {
+  height: 100%;
+}
+.App {
+  background: url(https://media2.giphy.com/media/78nXADhnE4BQfG4gup/200w.webp?cid=ecf05e4714u5xkounothonbn1oekj4g1uh83ppugosqyya1v&rid=200w.webp)
+    no-repeat fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  image-rendering: auto;
+  image-rendering: crisp-edges;
+  image-rendering: pixelated;
+}
+
+.App:active:after {
+  opacity: 0;
+}
+
+div.App {
+  height: 100%;
+  color: rgba(190, 151, 79, 0.637);
+  outline-color: black;
+  text-shadow: 0 0 3px #008cff, 0 0 5px #6200ff;
+}
+
+img.profile_pic {
+  height: fit-content;
+  width: fit-content;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 450px;
+  height: 240px;
+}
+
+/* div.home.container{
+background-image: url(https://www.desktopbackground.org/download/o/2012/03/20/361549_wallpapers-graphics-lines-simple-dark-desktop-wallpapers-3d_1680x1050_h.jpg);
+  
+} */
+
+.project_logo {
+  height: 100%;
+}
+.project_logo:hover {
+  opacity: 20%;
+}
+.profile_pic:hover {
+  opacity: 20%;
+}
+
+.contact_logo:hover {
+  opacity: 20%;
+}
+
+button.linkedin {
+  background-color: rgb(255, 255, 255);
+}
+
+button.linkedin:hover,
+button.github:hover {
+  background-color: darkgoldenrod;
+  font-size: 20px;
+  opacity: 700%;
+  animation: mymove 2s infinite;
+}
+@keyframes mymove {
+  from {
+    background-color: rgb(134, 19, 19);
+  }
+  to {
+    background-color: rgb(0, 0, 0);
+  }
+}
+
+.profile_pic {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  size: 15px;
+  border: 5px solid transparent;
+  padding: 15px;
+  border-radius: 30%;
+}
+
+img.project_logo {
+  height: 82%;
+  width: 90%;
+  border: 5px solid transparent;
+  padding: 15px;
+  border-radius: 30%;
+}
+
+img.contact_logo {
+  height: 82%;
+  width: 90%;
+  border: 5px solid transparent;
+  padding: 15px;
+  border-radius: 30%;
+}
+
+.homeBtn {
+  height: 50px;
+  width: 180px;
+  border-radius: 10%;
+  border-radius: 10px;
+  border-color: rgb(180, 168, 122);
+  color: bisque;
+  background: linear-gradient(-45deg, #200735, #05031d, #507d9493, #021820);
+  background-size: 400% 400%;
+  background-blend-mode: saturation;
+  animation: gradient 10s ease infinite;
+}
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.github {
+  font-size: 50px;
+  color: black;
+}
+.linkedin {
+  font-size: 50px;
+  color: black;
+  margin: 10px;
+}
+.github:hover {
+  background-color: rgb(97, 80, 49);
+}
+
+.linkedin:hover {
+  background-color: rgb(97, 80, 49);
+}
+.about_title {
+  text-align: center;
+  
+}
+div.card-footer {
+  width: 20px;
+}
+
+.bio {
+  font-size: 30px;
+}
+
+.about{
+ margin-left: 23rem;
+}
